@@ -5,6 +5,7 @@
 
 /**
  * main - This is my entry function
+ *
  * Return - this returns 0
  */
 int main(void)
@@ -16,8 +17,6 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	/* your code goes there */
-
-	printf("%d", n);
 
 	if (n == 0)
 	{
